@@ -9,11 +9,11 @@ shopping_items = [
 ]
 
 def shopping(items, payment='card', shop='local'):
-    pass
     shopping_cart = "Koszyk zawiera: "
     for item in items:
         shopping_cart += item + '\n'
-    return shopping_cart
+    return shopping_cart, payment, shop
 
-basket = shopping(shopping_items)
-print(basket)
+return_data = shopping(shopping_items)
+shoping_cart, payment, shop = return_data
+print(shoping_cart, shop)
