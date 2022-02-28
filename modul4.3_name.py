@@ -10,3 +10,6 @@ if __name__ == "__main__":
     name = name_text.splitlines()
     name_result = powitanie(name)
     print(name_result)
+
+    #Jak się pozbyć tych kwadratowych nawiasów w efekcie końcowym programu. 
+    #Chciałbym żeby wyświetlało się wszystko gładko jak jednolity tekst.
