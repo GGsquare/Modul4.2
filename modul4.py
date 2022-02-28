@@ -11,9 +11,9 @@ shopping_items = [
 def shopping(items, payment='card', shop='local'):
     shopping_cart = "Koszyk zawiera: "
     for item in items:
-        shopping_cart += item + '\n'
+        shopping_cart += item + ", "
     return shopping_cart, payment, shop
 
 return_data = shopping(shopping_items)
 shoping_cart, payment, shop = return_data
-print(shoping_cart, shop)
+print(return_data)
